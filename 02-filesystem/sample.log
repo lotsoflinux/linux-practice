@@ -1,0 +1,3 @@
+2026-03-12 10:04:23 INFO  Starting filesystem practice
+2026-03-12 10:04:24 WARN  /workspace/02-filesystem/sample.log is a dummy file
+2026-03-12 10:04:25 INFO  Practice `ls`, `cp`, `mv`, `rm`, and `find`

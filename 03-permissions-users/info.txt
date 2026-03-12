@@ -1,0 +1,4 @@
+This file is used to practice permissions and ownership.
+
+- Try `chmod 600 info.txt` to make it readable only by the owner.
+- Try `chmod 644 info.txt` to make it readable by everyone.

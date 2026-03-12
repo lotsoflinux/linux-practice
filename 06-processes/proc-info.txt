@@ -1,0 +1,6 @@
+/proc contains runtime system information (e.g., process details and kernel settings).
+
+Examples:
+- /proc/cpuinfo — CPU details
+- /proc/meminfo — memory usage
+- /proc/<pid>/status — process status for PID

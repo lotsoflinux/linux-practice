@@ -1,0 +1,4 @@
+Mar 12 10:00:00 localhost systemd[1]: Started Dummy Service.
+Mar 12 10:01:05 localhost audit[123]: SERVICE_START pid=123 comm="dummy" exe="/usr/bin/dummy"
+Mar 12 10:02:31 localhost kernel: [    0.000000] Initializing cgroup subsys cpuset
+Mar 12 10:03:45 localhost app[456]: ERROR Failed to connect to database.

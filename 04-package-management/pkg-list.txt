@@ -1,0 +1,6 @@
+# Dummy package list for practice
+curl
+vim
+git
+bash
+coreutils
