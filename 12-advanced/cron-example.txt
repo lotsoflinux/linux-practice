@@ -1,0 +1,5 @@
+# Example crontab entry (run once per minute):
+# * * * * * date >> /tmp/cron-test.log 2>&1
+
+# To install this crontab:
+# crontab cron-example.txt

@@ -31,6 +31,9 @@ tail -n 5 example.txt
 ## 🧩 Searching & Text Processing
 - Find files: `find . -name "*.log"`
 - Search inside files: `grep -R "ERROR" .`
+- Extended regex search: `grep -E "foo|bar" file.txt` or `egrep "foo|bar" file.txt`
+- Stream editing: `sed -n '1,5p' file.txt` or `sed 's/foo/bar/g' file.txt`
+- Field processing: `awk '{print $1}' file.txt`
 - Count words/lines: `wc -l file.txt`
 - Sort/uniq: `sort`, `uniq -c`
 - View columns: `cut -d',' -f1`
@@ -38,7 +41,8 @@ tail -n 5 example.txt
 > Example:
 ```bash
 grep -i "error" -R . | head
-find . -type f -name "*.sh"
+sed -n '1,5p' 01-shell-basics/example.txt
+awk '{print $1}' 02-filesystem/sample.log | head
 ``` 
 
 ---

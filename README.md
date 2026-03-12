@@ -45,7 +45,7 @@ This repo is designed to help you learn and practice the most important Linux to
 
 ---
 
-## 📚 Chapters (11 topics)
+## 📚 Chapters (12 topics)
 Each chapter folder contains exercises, example files, and commands you can run locally.
 
 1. **Shell Basics** (`01-shell-basics/`)
@@ -59,6 +59,7 @@ Each chapter folder contains exercises, example files, and commands you can run 
 9. **Containers & Docker** (`09-containers-docker/`)
 10. **Troubleshooting & Tools** (`10-troubleshooting-tools/`)
 11. **Linux Cheat Sheet** (`11-cheat-sheet/`)
+12. **Advanced Topics** (`12-advanced/`)
 
 ---
 

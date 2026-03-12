@@ -1,0 +1,11 @@
+[Unit]
+Description=Dummy service for linux-practice
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/bin/bash -c "while true; do echo \"hello from dummy service\"; sleep 60; done"
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
